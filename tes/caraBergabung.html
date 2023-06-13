@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/caraBergabung.css" >
+    <link rel ="icon" href ="image/unity-logo.png" type ="image/x-icon">
+    <title>Cara Bergabung</title>
+</head>
+
+<body>
+    <header>
+        <div class="atasIskal">
+        <img src="image/unity-logo.png" width="180px" height="180px" alt="logo unity">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html"> Apa Itu Unity? </a></li>
+                <li><a href="index.html"> Divisi </a></li>
+                <li><a href="pengembangWeb.html"> Pengembang Website </a></li>
+                <li><a href="caraBergabung.html"> Cara Bergabung </a></li>
+            </ul>
+        </nav>  
+    </header>
+
+    <main>
+        <div id="FormTinu" class="card">
+            <h2> Thank you for your interest to UNITY. Please fill in your data and we will contact you for further info. Thank you </h2>
+
+            <div class="formDaftar">
+            <form action="register.php" method="POST">
+                <label for="nama">Name Lengkap :</label>
+                <input type="text" id="nama" name="Nama" required placeholder="Nama Lengkap* ">
+                <br><br>
+
+                <label for="NIM">NIM :</label>
+                <input type="number" id="NIM" name="NIM" required placeholder="NIM* ">
+                <br><br>
+
+                <label for="email">Email Unsrat:</label>
+                <input type="email" id="emailJo" name="Email" placeholder="ContohCakalang2@unsrat.ac.id* ">
+                <br><br>
+
+                <label for="fakultas">Fakultas :</label>
+                <input type="text" id="fakultas" name="Fakultas" required placeholder="Fakultas* ">
+                <br><br>
+        
+        
+                    <label for="divisi">Divisi Yang Diminati :</label>
+                    <input type="text" id="divisi" name="Divisi" required placeholder="Satu Divisi yang diminati*">
+                
+
+                <input type="submit" value="Daftar" id="daftarkan"/>
+
+                <div class="ragu">
+                      <a href="index.html"> Jika masih ragu ayo baca ulang tentang divisi disini </a> 
+                </div>
+
+            </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Unsrat IT Community (UNITY)</p>
+    </footer>
+
+    <script src="/js/unity.js"></script>
+</body>
+</html>

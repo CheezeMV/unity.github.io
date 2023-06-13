@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ecf4ff;
+  font-size: 16px;
+}
+
+header {
+  display: inline;
+  text-align: center;
+}
+
+header .atasIskal {
+  padding: 15px;
+  background-color: #1f2748;
+}
+
+.atasIskal img {
+  border-radius: 50%;
+}
+
+header nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+header nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+header nav {
+  top: 0;
+  padding: 5px;
+  position: sticky;
+  background-color: #1f2748;
+}
+
+header nav a:hover {
+  opacity: 0.8;
+}
+
+.card {
+  margin: 30px 30px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#formTinu {
+  min-height: 80%;
+}
+
+input:not(.radioBatas) {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+#daftarkan {
+  font-size: 16px;
+}
+
+.ragu {
+  margin-top: 20px;
+  background-color: #1f2748;
+  padding: 10px;
+  border-radius: 20px;
+  width: 40%;
+}
+
+.ragu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ragu:hover {
+  opacity: 0.8;
+}
+
+footer {
+  padding: 20px;
+  color: #fff;
+  background-color: #1f2748;
+  text-align: center;
+}

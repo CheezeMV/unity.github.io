@@ -1,0 +1,80 @@
+/* Styles for index.php (Main page) */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #273248;
+  margin-top: 7%;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  margin-top: 10px;
+  color: black;
+}
+
+h5 {
+  color: navy;
+}
+
+form {
+  margin-top: 10px;
+}
+
+input[type='file'] {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: navy;
+  text-decoration: none;
+}
+
+/* Styles for login.php (Login page) */
+
+form {
+  margin-top: 20px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 200px;
+  padding: 6px 8px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: red;
+  font-weight: bold;
+}
+
+.konten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 30px 30px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
